@@ -6,7 +6,14 @@
         <!-- Gör så att svenska bokstäver visas korrekt --> 
     </head>
     <body>
-        <form method="post">
+        <h1>Kontakt</h1>
+        <ul>
+        <li><a href="../Index.html">Start</a></li>
+        <li><a href="../Pages/presentation.html">Presentation</a></li>
+        <li><a href="../Pages/laborationer.html">Laborationer</a></li>
+        <li><a href="../Pages/kontakt.html">Kontakt</a></li>
+        </ul>
+        <form name="contactForm" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
             <fieldset>
                 <legend>Fråga</legend>
                 Ärendetyp:
@@ -26,7 +33,7 @@
                 Kontakta mig via mail <input type="checkbox" name="contact" value="mail"><br>
                 Kontakta mig via telefon <input type="checkbox" name="contact" value="phone"><br>
             </fieldset>
-            <input type="submit" value="Skicka" name="submit">
+            <input type="submit" value="Skicka" name="send">
         </form>
     </body>
 </html>

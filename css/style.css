@@ -1,0 +1,40 @@
+div {border: 3px solid black;}
+
+/* Layout */
+
+#container
+    {
+        background: purple;
+        width: 1250px;
+        overflow: auto;
+        margin: 0 auto;
+    }
+
+#header 
+{
+    background: blue;
+    height:300px;
+    width: 1215px;
+}
+
+#navigation 
+    {
+        float: left;
+        background: yellow;
+        width: 200px;  
+    }
+
+#content 
+    {	    
+        width: 1000px;
+        background: red;
+        margin-left: 215px;
+    }
+    
+#footer
+    {
+        clear: both;
+        background: green;
+        height: 66px;
+        width: 1215px;
+    }

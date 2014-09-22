@@ -4,44 +4,50 @@
         <title>Index</title>
         <meta charset="UTF-8"> 
         <!-- Gör så att svenska bokstäver visas korrekt --> 
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <h1>Moa Alfredsson</h1>
-        
-        <img src="Pictures/logga2.png" alt="logga"> 
-        
-        <h2>Välkommen hit!</h2>
-        <ul>
-            <li><a href="Index.html">Start</a></li>
-            <li><a href="Pages/presentation.html">Presentation</a></li>
-            <li><a href="Pages/laborationer.html">Laborationer</a></li>
-            <li><a href="Pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <br>
-        <br>
-        <h3>Vektorgrafik</h3>
-        <img src="Pictures/moecat-01.svg" alt="vektorbild" id="vektorgrafik">
-        <p>Här kommer ett exemper på vektorgrafik i svg-format!</p>
-        <br>
-        <p>Skrivet av Moa, 2014-09-16</p>
-        <br>
-        <br>
-        <h3>Videotaggen!</h3>
-        <video width="960" height="540" controls>
-        <source src="Videos/video_ghost.mp4" type="video/mp4">
-        </video> 
-        <p>Här kommer ett test på hur man kan lägga upp videos på sin hemsida!</p>
-        <br>
-        <p>Skrivet av Moa, 2014-09-09</p>
-        <br>
-        <br>
-        <h3>Hay!</h3>
-        <p>På den här bloggen kommer jag att skriva om laborationerna i min kurs Webbteknisk Introduktion, och även
-        publicera materialet som jag producerar.</p>
-        <br>
-        <p>Skrivet av Moa, 2014-09-04</p>
-        <br>
-        <br>
-        <p>Ansvarig för materialet på den här sidan är Moa Alfredsson</p>
+        <div id="container">
+            <div id="header">
+                <img src="Pictures/logga2.png" alt="logga"> 
+            </div>
+            
+            <div id="navigation">
+                <ul>
+                    <li><a href="Index.html">Start</a></li>
+                    <li><a href="Pages/presentation.html">Presentation</a></li>
+                    <li><a href="Pages/laborationer.html">Laborationer</a></li>
+                    <li><a href="Pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Välkommen hit!</h2>
+                <h3>Vektorgrafik</h3>
+                <img src="Pictures/moecat-01.svg" alt="vektorbild" id="vektorgrafik">
+                <p>Här kommer ett exemper på vektorgrafik i svg-format!</p>
+                <br>
+                <p>Skrivet av Moa, 2014-09-16</p>
+                <br>
+                <br>
+                <h3>Videotaggen!</h3>
+                <video width="960" height="540" controls>
+                <source src="Videos/video_ghost.mp4" type="video/mp4">
+                </video> 
+                <p>Här kommer ett test på hur man kan lägga upp videos på sin hemsida!</p>
+                <br>
+                <p>Skrivet av Moa, 2014-09-09</p>
+                <br>
+                <br>
+                <h3>Hay!</h3>
+                <p>På den här bloggen kommer jag att skriva om laborationerna i min kurs Webbteknisk Introduktion, och även
+                publicera materialet som jag producerar.</p>
+                <br>
+                <p>Skrivet av Moa, 2014-09-04</p>
+            </div>
+            
+            <div id="footer">
+                <p>Ansvarig för materialet på den här sidan är Moa Alfredsson</p>
+            </div>
+        </div>
     </body>
 </html>

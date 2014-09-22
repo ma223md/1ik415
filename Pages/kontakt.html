@@ -3,37 +3,50 @@
     <head>
         <title>Kontakt</title>
         <meta charset="UTF-8"> 
-        <!-- Gör så att svenska bokstäver visas korrekt --> 
+        <!-- Gör så att svenska bokstäver visas korrekt -->
+        <link rel="stylesheet" href="../css/style.css" />
     </head>
     <body>
-        <h1>Kontakt</h1>
-        <ul>
-        <li><a href="../Index.html">Start</a></li>
-        <li><a href="../Pages/presentation.html">Presentation</a></li>
-        <li><a href="../Pages/laborationer.html">Laborationer</a></li>
-        <li><a href="../Pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <form name="contactForm" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            <fieldset>
-                <legend>Fråga</legend>
-                Ärendetyp:
-                <select name="errand">
-                    <option value="question">Fråga</option>
-                    <option value="greeting">Hälsning</option>
-                    <option value="other">Övrigt</option>
-                </select>
-                <br>
-                Rubrik: <input type="text" name="headline"><br>
-                Text: <textarea  name="comments" cols="25" rows="6"></textarea>
-            </fieldset>
-            <br>
-            <br>
-            <fieldset>
-                <legend>Information om dig</legend><br>
-                Kontakta mig via mail <input type="checkbox" name="contact" value="mail"><br>
-                Kontakta mig via telefon <input type="checkbox" name="contact" value="phone"><br>
-            </fieldset>
-            <input type="submit" value="Skicka" name="send">
-        </form>
+        <div id="container">
+            <div id="header">
+                <img src="../Pictures/logga2.png" alt="logga"> 
+            </div>
+            <div id="navigation">
+            <ul>
+                <li><a href="../Index.html">Start</a></li>
+                <li><a href="../Pages/presentation.html">Presentation</a></li>
+                <li><a href="../Pages/laborationer.html">Laborationer</a></li>
+                <li><a href="../Pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h1>Kontakt</h1>
+                <form name="contactForm" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                    <fieldset>
+                        <legend>Fråga</legend>
+                        Ärendetyp:
+                        <select name="errand">
+                            <option value="question">Fråga</option>
+                            <option value="greeting">Hälsning</option>
+                            <option value="other">Övrigt</option>
+                        </select>
+                        <br>
+                        Rubrik: <input type="text" name="headline"><br>
+                        Text: <textarea  name="comments" cols="25" rows="6"></textarea>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Information om dig</legend><br>
+                        Kontakta mig via mail <input type="checkbox" name="contact" value="mail"><br>
+                        Kontakta mig via telefon <input type="checkbox" name="contact" value="phone"><br>
+                    </fieldset>
+                    <input type="submit" value="Skicka" name="send">
+                </form>
+            </div>
+            <div id="footer">
+                <p>Ansvarig för materialet på den här sidan är Moa Alfredsson</p>
+            </div>
+        </div>
     </body>
 </html>

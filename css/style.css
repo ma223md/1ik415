@@ -1,10 +1,14 @@
-div {border: 3px solid black;}
-
 /* Layout */
+
+/*  Colors
+    Main: #e1e0ce
+    Navigation: #79dac0
+    Content: #e5c584
+*/
 
 #container
     {
-        background: purple;
+        background: #e1e0ce;
         width: 1250px;
         overflow: auto;
         margin: 0 auto;
@@ -12,29 +16,28 @@ div {border: 3px solid black;}
 
 #header 
 {
-    background: blue;
-    height:300px;
-    width: 1215px;
+    height:250px;
+    width: 1200px;
 }
 
 #navigation 
     {
         float: left;
-        background: yellow;
+        background: #79dac0;
         width: 200px;  
     }
 
 #content 
     {	    
         width: 1000px;
-        background: red;
-        margin-left: 215px;
+        background: #e5c584;
+        float: left;
     }
     
 #footer
     {
         clear: both;
-        background: green;
+        background: #79dac0;
         height: 66px;
-        width: 1215px;
+        width: 1200px;
     }

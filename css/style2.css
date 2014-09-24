@@ -45,7 +45,7 @@
         
     }
     
-#navigation ul li a:hover, #navigation ul li .current 
+#navigation ul li a:hover, #navigation ul li .active 
     {
     color: white;
     background-color: #5faa96;

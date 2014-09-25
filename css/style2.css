@@ -45,11 +45,16 @@
         
     }
     
-#navigation ul li a:hover, #navigation ul li .active 
+#navigation ul li .active
     {
-    color: white;
-    background-color: #5faa96;
+    color: #5f4f3a;
+    background-color: #acfee8;
     }
+    
+#navigation ul li a:hover
+{
+    background-color:  #acfee8;
+}
 
 #content 
     {	    

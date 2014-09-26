@@ -95,6 +95,7 @@ body
 #content .blogdate
 {
     font-size: 0.7em;
+    clear: both;
 }
 
 
@@ -141,10 +142,18 @@ body
     color: #5f4f3a;
 }
 /* Textwrap för bilder */
-.TextWrap 
+.TextWrapRight
 {
     float: right;
     margin: 10px;
+}
+.TextWrapLeft
+{
+    float: left;
+}
+.ClearWrap
+{
+    clear: both;
 }
 
 /* Placerar footer under kolumnerna */

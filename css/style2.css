@@ -5,6 +5,18 @@
     Navigation: #79dac0
     Content: #e5c584
 */
+body
+{
+    background: #e1e0ce;
+    line-height: 1.5em;
+}
+
+#header
+{
+    background-image: url(pics/logga2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 #container
     {
@@ -18,6 +30,12 @@
 {
     height:250px;
     width: 1200px;
+}
+
+#header img
+{
+    padding-top: 15px;
+    padding-left: 185px;
 }
 
 #navigation 
@@ -37,32 +55,101 @@
 
 #navigation ul li a 
     {
-        text-decoration: none;
         color: #5f4f3a;
-        padding: 10.5px 11px;
         background-color: #79dac0;
+        padding: 10.5px 11px;
         display:block;
+        font-family: 'Cinzel', serif;
+        text-transform: uppercase;
+        text-decoration: none;
         
     }
     
 #navigation ul li .active
     {
     color: #5f4f3a;
-    background-color: #acfee8;
+    background-color: #95efd7;
     }
     
 #navigation ul li a:hover
 {
-    background-color:  #acfee8;
+    background-color:  #95efd7;
 }
 
 #content 
-    {	    
-        width: 1000px;
-        background: #e5c584;
+    {	
+        background-image: url(pics/paperbackground.jpg);
+        /*background-repeat: no-repeat;*/
+        /*background-position: center;*/
+        width: 900px;
+        /*background: #dcd3a8;*/
         float: left;
     }
     
+#content p
+{
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#content .blogdate
+{
+    font-size: 0.7em;
+}
+
+
+#content h1
+{
+    padding-top: 10px;
+    color: #5f4f3a;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#content h2, h3
+{
+    color: #5f4f3a;
+    font-family: 'Cinzel', serif;
+    padding-left: 30px;  
+}
+
+#content dl, ul, ol
+{
+    padding-right: 50px;
+    padding-left: 40px;
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#content table
+{
+    padding-left: 30px;
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+#content img, video
+{
+    padding-left: 30px;
+}
+
+#content a
+{
+    color: #5f4f3a;
+}
+.TextWrap 
+{
+    float: right;
+    margin: 10px;
+}
+
+
 #footer
     {
         clear: both;
@@ -70,3 +157,12 @@
         height: 66px;
         width: 1200px;
     }
+    
+#footer p
+{
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 20px;
+}

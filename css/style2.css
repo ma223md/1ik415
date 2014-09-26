@@ -16,6 +16,7 @@ body
         background-image: url(pics/logga2.png);
         background-repeat: no-repeat;
         background-position: center;
+        height:250px;
     }
 
 #container
@@ -26,11 +27,6 @@ body
         margin: 0 auto;
     }
 
-#header 
-    {
-        height:250px;
-        width: 1200px;
-    }
 
 #header img
     {
@@ -78,7 +74,7 @@ body
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
-        width: 870px;
+        width: 840px;
         float: left;
         box-shadow: 8px 8px 4px #888888;
         padding: 30px;
@@ -146,7 +142,6 @@ body
         clear: both;
         background: #79dac0;
         height: 66px;
-        width: 1200px;
     }
     
 #footer p

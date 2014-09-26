@@ -6,17 +6,17 @@
     Content text: #5f4f3a
 */
 body
-{
-    background: #e1e0ce;
-    line-height: 1.5em;
-}
+    {
+        background: #e1e0ce;
+        line-height: 1.5em;
+    }
 
 #header
-{
-    background-image: url(pics/logga2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    {
+        background-image: url(pics/logga2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
 #container
     {
@@ -27,16 +27,16 @@ body
     }
 
 #header 
-{
-    height:250px;
-    width: 1200px;
-}
+    {
+        height:250px;
+        width: 1200px;
+    }
 
 #header img
-{
-    padding-top: 15px;
-    padding-left: 185px;
-}
+    {
+        padding-top: 15px;
+        padding-left: 185px;
+    }
 
 #navigation 
     {
@@ -71,9 +71,9 @@ body
     }
     
 #navigation ul li a:hover
-{
-    background-color:  #95efd7;
-}
+    {
+        background-color:  #95efd7;
+    }
 
 #content 
     {	
@@ -87,58 +87,58 @@ body
     }
     
 #content p
-{
-    padding-bottom: 10px;
-}
+    {
+        padding-bottom: 10px;
+    }
 
 #content .blogdate
-{
-    font-size: 0.7em;
-    clear: both;
-}
+    {
+        font-size: 0.7em;
+        clear: both;
+    }
 
 #content h1
-{
-    color: #5f4f3a;
-    font-family: 'Cinzel', serif;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    text-align: center;
-}
+    {
+        color: #5f4f3a;
+        font-family: 'Cinzel', serif;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        text-align: center;
+    }
 
 #content h2, h3
-{
-    color: #5f4f3a;
-    font-family: 'Cinzel', serif;
-}
+    {
+        color: #5f4f3a;
+        font-family: 'Cinzel', serif;
+    }
 
 #content table, th, td
-{
-    border: 2px solid #5f4f3a;
-}
+    {
+        border: 2px solid #5f4f3a;
+    }
 
 #content td
-{
-    padding: 10px;
-}
+    {
+        padding: 10px;
+    }
 
 #content a
-{
-    color: #5f4f3a;
-}
+    {
+        color: #5f4f3a;
+    }
 /* Textwrap för bilder */
 .TextWrapRight
-{
-    float: right;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
+    {
+        float: right;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
 .TextWrapLeft
-{
-    float: left;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
+    {
+        float: left;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
 
 /* Placerar footer under kolumnerna */
 #footer
@@ -150,10 +150,10 @@ body
     }
     
 #footer p
-{
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 0.7em;
-    text-align: center;
-    padding-top: 20px;
-}
+    {
+        color: #5f4f3a;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.7em;
+        text-align: center;
+        padding-top: 20px;
+    }

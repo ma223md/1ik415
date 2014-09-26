@@ -44,7 +44,7 @@ body
         background: #e1e0ce;
         width: 200px;  
     }
-    
+   
 #navigation ul 
     {
         margin: 0;
@@ -52,7 +52,7 @@ body
         width:185px;
         list-style-type: none;
     }
-
+/* Ändrar lista till menyknappar */
 #navigation ul li a 
     {
         color: #5f4f3a;
@@ -64,8 +64,8 @@ body
         text-decoration: none;
         
     }
-    
-#navigation ul li .active
+/* Färgar aktiv länk i meny */
+#navigation ul li .active  
     {
     color: #5f4f3a;
     background-color: #95efd7;
@@ -79,10 +79,7 @@ body
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
-        /*background-repeat: no-repeat;*/
-        /*background-position: center;*/
         width: 900px;
-        /*background: #dcd3a8;*/
         float: left;
     }
     
@@ -143,13 +140,14 @@ body
 {
     color: #5f4f3a;
 }
+/* Textwrap för bilder */
 .TextWrap 
 {
     float: right;
     margin: 10px;
 }
 
-
+/* Placerar footer under kolumnerna */
 #footer
     {
         clear: both;

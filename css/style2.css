@@ -3,7 +3,7 @@
 /*  Colors
     Main: #e1e0ce
     Navigation: #79dac0
-    Content: #e5c584
+    Content text: #5f4f3a
 */
 body
 {
@@ -62,7 +62,6 @@ body
         font-family: 'Cinzel', serif;
         text-transform: uppercase;
         text-decoration: none;
-        
     }
 /* Färgar aktiv länk i meny */
 #navigation ul li .active  
@@ -79,17 +78,18 @@ body
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
-        width: 900px;
+        width: 870px;
         float: left;
+        box-shadow: 8px 8px 4px #888888;
+        padding-left: 30px;
+        color: #5f4f3a;
+        font-family: 'Ubuntu', sans-serif;
     }
     
 #content p
 {
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif;
     padding-right: 50px;
     padding-bottom: 10px;
-    padding-left: 30px;
 }
 
 #content .blogdate
@@ -97,7 +97,6 @@ body
     font-size: 0.7em;
     clear: both;
 }
-
 
 #content h1
 {
@@ -107,34 +106,22 @@ body
     font-size: 2.5em;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 #content h2, h3
 {
     color: #5f4f3a;
     font-family: 'Cinzel', serif;
-    padding-left: 30px;  
 }
 
-#content dl, ul, ol
+#content table, th, td
 {
-    padding-right: 50px;
-    padding-left: 40px;
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #5f4f3a;
 }
 
-#content table
+#content td
 {
-    padding-left: 30px;
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif; 
-}
-
-#content img, video
-{
-    padding-left: 30px;
+    padding: 10px;
 }
 
 #content a
@@ -150,10 +137,6 @@ body
 .TextWrapLeft
 {
     float: left;
-}
-.ClearWrap
-{
-    clear: both;
 }
 
 /* Placerar footer under kolumnerna */

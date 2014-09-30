@@ -1,0 +1,124 @@
+#navigation {display: none}
+
+body
+    {
+        background: white;
+        line-height: 1.5em;
+    }
+
+#header
+    {
+        background-image: url(pics/logga2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height:250px;
+    }
+
+
+
+#header img
+    {
+        padding-top: 15px;
+        padding-left: 185px;
+    }
+
+
+#content 
+    {	
+        width: 840px;
+        float: left;
+        padding: 30px;
+    }
+    
+#content p
+    {
+        padding-bottom: 10px;
+    }
+
+#content .blogdate
+    {
+        font-size: 0.7em;
+        clear: both;
+    }
+
+#content h1
+    {
+        color: #5f4f3a;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+#content table, th, td
+    {
+        border: 2px solid black;
+    }
+
+#content td
+    {
+        padding: 10px;
+    }
+
+#content a
+    {
+        color: #5f4f3a;
+    }
+/* Textwrap för bilder */
+.TextWrapRight
+    {
+        float: right;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+.TextWrapLeft
+    {
+        float: left;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    
+form   
+{
+    margin:auto;
+    position:relative;
+    width:550px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+}
+
+input, option, textarea, select
+    {
+
+        border: 1px solid #999;
+    }
+    
+.fillIn
+    {
+        width:375px;
+        display:block;
+    }
+    
+.button
+{
+    width:80px;
+    margin-top:10px;
+    padding: 5px;
+}
+
+/* Placerar footer under kolumnerna */
+#footer
+    {
+        clear: both;
+        background: white;
+        height: 66px;
+    }
+    
+#footer p
+    {
+        font-size: 0.7em;
+        text-align: center;
+        padding-top: 20px;
+    }

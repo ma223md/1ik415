@@ -26,17 +26,17 @@
                     <fieldset>
                         <legend>Fråga</legend>
                         <span>Ärendetyp:</span>
-                        <select name="errand">
+                        <select name="errand" class="test">
                             <option value="question">Fråga</option>
                             <option value="greeting">Hälsning</option>
                             <option value="other">Övrigt</option>
                         </select>
-                        <span>Rubrik:</span> <input type="text" name="headline">
-                        <span>Text:</span> <textarea  name="comments" cols="25" rows="6"></textarea>
+                        <span>Rubrik:</span> <input type="text" name="headline" class="test">
+                        <span>Text:</span> <textarea  name="comments" cols="25" rows="6" class="test"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
-                        <span>Kontakta mig via mail</span> <input type="checkbox" name="contact" value="mail">
+                        <span>Kontakta mig via mail</span> <input type="checkbox" name="contact" value="mail"><br>
                         <span>Kontakta mig via telefon</span> <input type="checkbox" name="contact" value="phone">
                     </fieldset>
                     <input type="submit" value="Skicka" name="send" class="button">

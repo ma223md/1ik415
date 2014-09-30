@@ -7,7 +7,7 @@
 */
 body
     {
-        background: #e1e0ce;
+        background: #efebe4;
         line-height: 1.5em;
     }
 
@@ -21,7 +21,7 @@ body
 
 #container
     {
-        background: #e1e0ce;
+        background: #efebe4;
         width: 1250px;
         overflow: auto;
         margin: 0 auto;
@@ -37,7 +37,7 @@ body
 #navigation 
     {
         float: left;
-        background: #e1e0ce;
+        background: #efebe4;
         width: 200px;  
     }
    
@@ -135,6 +135,43 @@ body
         padding-bottom: 10px;
         padding-right: 10px;
     }
+    
+form   
+{
+    margin:auto;
+    position:relative;
+    width:550px;
+
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input, option, textarea, select
+    {
+        width:375px;
+        display:block;
+        border: 1px solid #999;
+        -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+.button
+{
+    width:80px;
+    margin-top:10px;
+    padding: 5px;
+    color: #5f4f3a;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /* Placerar footer under kolumnerna */
 #footer

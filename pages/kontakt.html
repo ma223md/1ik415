@@ -25,24 +25,21 @@
                 <form name="contactForm" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                     <fieldset>
                         <legend>Fråga</legend>
-                        Ärendetyp:
+                        <span>Ärendetyp:</span>
                         <select name="errand">
                             <option value="question">Fråga</option>
                             <option value="greeting">Hälsning</option>
                             <option value="other">Övrigt</option>
                         </select>
-                        <br>
-                        Rubrik: <input type="text" name="headline"><br>
-                        Text: <textarea  name="comments" cols="25" rows="6"></textarea>
+                        <span>Rubrik:</span> <input type="text" name="headline">
+                        <span>Text:</span> <textarea  name="comments" cols="25" rows="6"></textarea>
                     </fieldset>
-                    <br>
-                    <br>
                     <fieldset>
-                        <legend>Information om dig</legend><br>
-                        Kontakta mig via mail <input type="checkbox" name="contact" value="mail"><br>
-                        Kontakta mig via telefon <input type="checkbox" name="contact" value="phone"><br>
+                        <legend>Information om dig</legend>
+                        <span>Kontakta mig via mail</span> <input type="checkbox" name="contact" value="mail">
+                        <span>Kontakta mig via telefon</span> <input type="checkbox" name="contact" value="phone">
                     </fieldset>
-                    <input type="submit" value="Skicka" name="send">
+                    <input type="submit" value="Skicka" name="send" class="button">
                 </form>
             </div>
             <div id="footer">

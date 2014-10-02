@@ -8,16 +8,7 @@ body
 
 #header
     {
-        background-image: url(pics/logga2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        height:250px;
-    }
-
-#header img
-    {
-        padding-top: 15px;
-        padding-left: 185px;
+    display: none;
     }
 
 #content 
@@ -55,11 +46,15 @@ body
     {
         padding: 10px;
     }
+    
+@media print{
+       a:after{ content: attr(href)}
 
-#content a
-    {
-        color: #5f4f3a;
-    }
+    
+#content video
+{
+    display: none;
+}
 /* Textwrap för bilder */
 .TextWrapRight
     {

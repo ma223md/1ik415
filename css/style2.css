@@ -36,11 +36,9 @@ body
 
 #home a
     {
-        background: url(pics/sprite.png) 0 -48;
+        background: url(pics/sprite.png) 0 -48px;
         background-repeat: no-repeat;
     }
-
-
 #home a:hover 
     {
         background: url(pics/sprite.png) 0 0px;
@@ -99,12 +97,12 @@ body
     }
     
 #navigation li
-{
-        width: 185px;
-        height: 24px;
-        padding-top: 4px;
-        padding-bottom: 4px; 
-}
+    {
+            width: 185px;
+            height: 24px;
+            padding-top: 4px;
+            padding-bottom: 4px; 
+    }
     
 #navigation a
     {
@@ -119,11 +117,33 @@ body
         display: block;
     }
     
-#navigation ul li .active  
+#navigation ul li .activehome  
     {
-    color: #5f4f3a;
-    background-color: #95efd7;
-    background: url(pics/sprite.png) 0 -48
+        color: #5f4f3a;
+        background-color: #95efd7;
+        background: url(pics/sprite.png) 0 0px;
+        background-repeat: no-repeat;
+    }
+#navigation ul li .activepres  
+    {
+        color: #5f4f3a;
+        background-color: #95efd7;
+        background: url(pics/sprite.png) 0 -192px;
+        background-repeat: no-repeat;
+    }
+#navigation ul li .activelab  
+    {
+        color: #5f4f3a;
+        background-color: #95efd7;
+        background: url(pics/sprite.png) 0 -96px;
+        background-repeat: no-repeat;
+    }
+#navigation ul li .activecontact
+    {
+        color: #5f4f3a;
+        background-color: #95efd7;
+        background: url(pics/sprite.png) 0 -288px;
+        background-repeat: no-repeat;
     }
 
 
@@ -193,25 +213,24 @@ body
     }
     
 form   
-{
-    margin:auto;
-    position:relative;
-    width:550px;
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    padding:10px;
-    border: 1px solid #999;
-    border: inset 1px solid #333;
-    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
+    {
+        margin:auto;
+        position:relative;
+        width:550px;
+        color: #5f4f3a;
+        font-family: 'Ubuntu', sans-serif;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        padding:10px;
+        border: 1px solid #999;
+        border: inset 1px solid #333;
+        -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    }
 
 input, option, textarea, select
     {
-
         border: 1px solid #999;
         -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
@@ -225,13 +244,13 @@ input, option, textarea, select
     }
     
 .button
-{
-    width:80px;
-    margin-top:10px;
-    padding: 5px;
-    color: #5f4f3a;
-    font-family: 'Ubuntu', sans-serif;
-}
+    {
+        width:80px;
+        margin-top:10px;
+        padding: 5px;
+        color: #5f4f3a;
+        font-family: 'Ubuntu', sans-serif;
+    }
 
 /* Placerar footer under kolumnerna */
 #footer

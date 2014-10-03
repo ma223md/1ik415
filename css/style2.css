@@ -34,6 +34,42 @@ body
         padding-left: 185px;
     }
 
+#home {
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 0 0;
+}
+#home a:hover {
+    background: url(pics/sprite.png) 0 -48px;
+}
+
+#pres {
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 0 -192px;
+}
+#pres a:hover {
+    background: url(pics/sprite.png) 0 -192px;
+}
+
+#lab {
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 0 -96px;
+}
+#lab a:hover {
+    background: url(pics/sprite.png) 0 -144px;
+}
+
+#contact {
+    width: 24px;
+    height: 24px;
+    background: url(pics/sprite.png) 0 -288px;
+}
+#contact a:hover {
+    background: url(pics/sprite.png) 0 -366px;
+}
+
 #navigation 
     {
         float: left;

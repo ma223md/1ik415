@@ -36,60 +36,52 @@ body
 
 #home a
     {
-        width: 24px;
-        height: 24px;
-        background: url(pics/sprite.png) 0 0;
+        background: url(pics/sprite.png) 0 -48;
         background-repeat: no-repeat;
     }
 
 
 #home a:hover 
     {
-        background: url(pics/sprite.png) 0 -48px;
+        background: url(pics/sprite.png) 0 0px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
     }
 
 #pres a
     {
-        width: 24px;
-        height: 24px;
-        background: url(pics/sprite.png) 0 -192px;
+        background: url(pics/sprite.png) 0 -240px;
         background-repeat: no-repeat;
     }
 #pres a:hover 
     {
-        background: url(pics/sprite.png) 0 -240px;
+        background: url(pics/sprite.png) 0 -192px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
     }
 
 #lab a
     {
-        width: 24px;
-        height: 24px;
-        background: url(pics/sprite.png) 0 -96px;
+        background: url(pics/sprite.png) 0 -144px;
         background-repeat: no-repeat;
     }
 
 #lab a:hover 
     {
-        background: url(pics/sprite.png) 0 -144px;
+        background: url(pics/sprite.png) 0 -96px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
     }
 
 #contact a
     {
-        width: 24px;
-        height: 24px;
-        background: url(pics/sprite.png) 0 -288px;
+        background: url(pics/sprite.png) 0 -336px;
         background-repeat: no-repeat;
     }
     
 #contact a:hover 
     {
-        background: url(pics/sprite.png) 0 -336px;
+        background: url(pics/sprite.png) 0 -288px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
     }
@@ -104,12 +96,13 @@ body
 #navigation ul
     {
         list-style: none;
-        
     }
     
 #navigation li
 {
-          padding-top: 4px;
+        width: 185px;
+        height: 24px;
+        padding-top: 4px;
         padding-bottom: 4px; 
 }
     
@@ -123,12 +116,14 @@ body
         font-family: 'Cinzel', serif;
         background-color: #79dac0;
         color: #5f4f3a;
+        display: block;
     }
     
 #navigation ul li .active  
     {
     color: #5f4f3a;
     background-color: #95efd7;
+    background: url(pics/sprite.png) 0 -48
     }
 
 

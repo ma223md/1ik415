@@ -34,41 +34,65 @@ body
         padding-left: 185px;
     }
 
-#home {
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 0 0;
-}
-#home a:hover {
-    background: url(pics/sprite.png) 0 -48px;
-}
+#home a
+    {
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 0 0;
+        background-repeat: no-repeat;
+    }
 
-#pres {
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 0 -192px;
-}
-#pres a:hover {
-    background: url(pics/sprite.png) 0 -192px;
-}
 
-#lab {
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 0 -96px;
-}
-#lab a:hover {
-    background: url(pics/sprite.png) 0 -144px;
-}
+#home a:hover 
+    {
+        background: url(pics/sprite.png) 0 -48px;
+        background-repeat: no-repeat;
+        background-color:  #95efd7;
+    }
 
-#contact {
-    width: 24px;
-    height: 24px;
-    background: url(pics/sprite.png) 0 -288px;
-}
-#contact a:hover {
-    background: url(pics/sprite.png) 0 -366px;
-}
+#pres a
+    {
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 0 -192px;
+        background-repeat: no-repeat;
+    }
+#pres a:hover 
+    {
+        background: url(pics/sprite.png) 0 -240px;
+        background-repeat: no-repeat;
+        background-color:  #95efd7;
+    }
+
+#lab a
+    {
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 0 -96px;
+        background-repeat: no-repeat;
+    }
+
+#lab a:hover 
+    {
+        background: url(pics/sprite.png) 0 -144px;
+        background-repeat: no-repeat;
+        background-color:  #95efd7;
+    }
+
+#contact a
+    {
+        width: 24px;
+        height: 24px;
+        background: url(pics/sprite.png) 0 -288px;
+        background-repeat: no-repeat;
+    }
+    
+#contact a:hover 
+    {
+        background: url(pics/sprite.png) 0 -336px;
+        background-repeat: no-repeat;
+        background-color:  #95efd7;
+    }
 
 #navigation 
     {
@@ -77,35 +101,36 @@ body
         width: 200px;  
     }
    
-#navigation ul 
+#navigation ul
     {
-        margin: 0;
-        padding: 0;
-        width:185px;
-        list-style-type: none;
+        list-style: none;
+        
     }
-/* Ändrar lista till menyknappar */
-#navigation ul li a 
+    
+#navigation li
+{
+          padding-top: 4px;
+        padding-bottom: 4px; 
+}
+    
+#navigation a
     {
-        color: #5f4f3a;
-        background-color: #79dac0;
-        padding: 10.5px 11px;
-        display:block;
-        font-family: 'Cinzel', serif;
-        text-transform: uppercase;
+        padding-left: 28px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
         text-decoration: none;
+        font-family: 'Cinzel', serif;
+        background-color: #79dac0;
+        color: #5f4f3a;
     }
-/* Färgar aktiv länk i meny */
+    
 #navigation ul li .active  
     {
     color: #5f4f3a;
     background-color: #95efd7;
     }
-    
-#navigation ul li a:hover
-    {
-        background-color:  #95efd7;
-    }
+
 
 #content 
     {	

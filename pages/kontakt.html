@@ -32,13 +32,13 @@
                             <option value="greeting">Hälsning</option>
                             <option value="other">Övrigt</option>
                         </select>
-                        <span>Rubrik:</span> <input type="text" name="headline" class="fillIn">
+                        <label id="headline">Rubrik:</label> <input type="text" name="headline" class="fillIn" id="headline">
                         <span>Text:</span> <textarea  name="comments" cols="25" rows="6" class="fillIn"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
-                        <span>Kontakta mig via mail</span> <input type="checkbox" name="contact" value="mail"><br>
-                        <span>Kontakta mig via telefon</span> <input type="checkbox" name="contact" value="phone">
+                        <label>Kontakta mig via mail <input type="checkbox" name="contact" value="mail"></label><br>
+                        <label>Kontakta mig via telefon <input type="checkbox" name="contact" value="phone"></label>
                     </fieldset>
                     <input type="submit" value="Skicka" name="send" class="button">
                 </form>

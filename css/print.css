@@ -48,7 +48,7 @@ body
     }
     
 @media print{
-       a:after{ content: attr(href)}
+       a:after{ content: " ("attr(href)")"}
 
     
 #content video

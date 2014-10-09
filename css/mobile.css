@@ -150,7 +150,7 @@ body
     
 #content p
     {
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 
 #content .blogdate
@@ -163,16 +163,22 @@ body
     {
         color: #5f4f3a;
         font-family: 'Cinzel', serif;
-        font-size: 2.5em;
+        font-size: 1.5em;
         text-transform: uppercase;
         text-align: center;
     }
 
 #content h2, h3
     {
+        font-size: 1em;
         color: #5f4f3a;
         font-family: 'Cinzel', serif;
     }
+
+#content table
+{
+    overflow: auto;
+}
 
 #content table, th, td
     {
@@ -193,6 +199,16 @@ img, video
     {
         max-width: 100%;
     }
+    
+img #laytonpic
+ {
+     width: 500px;
+ }
+ 
+video #ghostvideo
+ {
+     width: 720px;
+ }
     
 form   
     {

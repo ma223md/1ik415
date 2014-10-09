@@ -1,29 +1,24 @@
-/* Layout */
+@media screen and (max-width: 480px) {
+  .container,
+  .navigation,
+  .content,
+  .footer {
+    float: none;
+    width: auto;
+  }
+}
 
-/*  Colors
-    Main: #e1e0ce
-    Navigation: #79dac0
-    Content text: #5f4f3a
-*/
 body
     {
         background: #efebe4;
         line-height: 1.5em;
     }
 
-#header
-    {
-        background-image: url(pics/logga2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        height:250px;
-    }
 
 #container
     {
         background: #efebe4;
-        width: 1250px;
-        overflow: auto;
+
         margin: 0 auto;
     }
 
@@ -86,9 +81,7 @@ body
 
 #navigation 
     {
-        float: left;
         background: #efebe4;
-        width: 200px;  
     }
    
 #navigation ul
@@ -150,9 +143,7 @@ body
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
-        width: 840px;
         float: left;
-        box-shadow: 8px 8px 4px #888888;
         padding: 30px;
         color: #5f4f3a;
         font-family: 'Ubuntu', sans-serif;
@@ -198,25 +189,12 @@ body
     {
         color: #5f4f3a;
     }
-/* Textwrap för bilder */
-.TextWrapRight
-    {
-        float: right;
-        padding-bottom: 10px;
-        padding-left: 10px;
-    }
-.TextWrapLeft
-    {
-        float: left;
-        padding-bottom: 10px;
-        padding-right: 10px;
-    }
-  
+
 img
     {
         max-width: 100%;
-    }  
-  
+    }
+    
 form   
     {
         margin:auto;

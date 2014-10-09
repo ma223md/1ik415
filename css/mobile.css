@@ -21,11 +21,12 @@ body
         margin: 0 auto;
     }
 
-
-#header img
+#header
     {
-        padding-top: 15px;
-        padding-left: 185px;
+        background-image: url(pics/logga_mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
     }
 
 #home a
@@ -214,12 +215,12 @@ form
     {
         margin:auto;
         position:relative;
-        width:550px;
+        width:auto;
         color: #5f4f3a;
         font-family: 'Ubuntu', sans-serif;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        padding:10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        padding: 5px;
         border: 1px solid #999;
         border: inset 1px solid #333;
         -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
@@ -237,7 +238,7 @@ input, option, textarea, select
     
 .fillIn
     {
-        width:375px;
+        width: auto;
         display:block;
     }
     

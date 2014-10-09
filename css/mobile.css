@@ -18,7 +18,6 @@ body
 #container
     {
         background: #efebe4;
-
         margin: 0 auto;
     }
 
@@ -143,7 +142,7 @@ body
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
-        float: left;
+        background-size: auto;
         padding: 30px;
         color: #5f4f3a;
         font-family: 'Ubuntu', sans-serif;
@@ -190,7 +189,7 @@ body
         color: #5f4f3a;
     }
 
-img
+img, video
     {
         max-width: 100%;
     }

@@ -14,49 +14,45 @@ body
         line-height: 1.5em;
     }
 
-
 #container
     {
         background: #efebe4;
         margin: 0 auto;
     }
 
-#header
-    {
-        background-image: url(pics/logga_mobile.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        max-width: 100%;
-    }
-
 #home a
     {
         background: url(pics/sprite.png) 0 -48px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 #home a:hover 
     {
         background: url(pics/sprite.png) 0 0px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
+        background-position: 5px 5px;
     }
 
 #pres a
     {
         background: url(pics/sprite.png) 0 -240px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 #pres a:hover 
     {
         background: url(pics/sprite.png) 0 -192px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
+        background-position: 5px 5px;
     }
 
 #lab a
     {
         background: url(pics/sprite.png) 0 -144px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 
 #lab a:hover 
@@ -64,12 +60,14 @@ body
         background: url(pics/sprite.png) 0 -96px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
+        background-position: 5px 5px;
     }
 
 #contact a
     {
         background: url(pics/sprite.png) 0 -336px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
     
 #contact a:hover 
@@ -77,6 +75,7 @@ body
         background: url(pics/sprite.png) 0 -288px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
+        background-position: 5px 5px;
     }
 
 #navigation 
@@ -91,7 +90,7 @@ body
     
 #navigation li
     {
-            width: 185px;
+            width: auto;
             height: 24px;
             padding-top: 4px;
             padding-bottom: 4px; 
@@ -99,9 +98,9 @@ body
     
 #navigation a
     {
-        padding-left: 28px;
+        padding-left: 34px;
         padding-right: 8px;
-        padding-top: 4px;
+        padding-top: 5px;
         padding-bottom: 4px;
         text-decoration: none;
         font-family: 'Cinzel', serif;
@@ -116,6 +115,7 @@ body
         background-color: #95efd7;
         background: url(pics/sprite.png) 0 0px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 #navigation ul li .activepres  
     {
@@ -123,6 +123,7 @@ body
         background-color: #95efd7;
         background: url(pics/sprite.png) 0 -192px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 #navigation ul li .activelab  
     {
@@ -130,6 +131,7 @@ body
         background-color: #95efd7;
         background: url(pics/sprite.png) 0 -96px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 #navigation ul li .activecontact
     {
@@ -137,6 +139,7 @@ body
         background-color: #95efd7;
         background: url(pics/sprite.png) 0 -288px;
         background-repeat: no-repeat;
+        background-position: 5px 5px;
     }
 
 

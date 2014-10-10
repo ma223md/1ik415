@@ -131,7 +131,6 @@ body
         background-repeat: no-repeat;
     }
 
-
 #content 
     {	
         background-image: url(pics/paperbackground.jpg);
@@ -168,8 +167,9 @@ body
         font-family: 'Cinzel', serif;
     }
 
-#content table
+#table
 {
+    width: auto;
     overflow: auto;
 }
 

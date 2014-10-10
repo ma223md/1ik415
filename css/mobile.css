@@ -22,60 +22,52 @@ body
 
 #home a
     {
-        background: url(pics/sprite.png) 0 -48px;
+        background: url(pics/sprite.png) 5px -43px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 #home a:hover 
     {
-        background: url(pics/sprite.png) 0 0px;
+        background: url(pics/sprite.png) 5px 5px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
-        background-position: 5px 5px;
     }
 
 #pres a
     {
-        background: url(pics/sprite.png) 0 -240px;
+        background: url(pics/sprite.png) 5px -235px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 #pres a:hover 
     {
-        background: url(pics/sprite.png) 0 -192px;
+        background: url(pics/sprite.png) 5px -187px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
-        background-position: 5px 5px;
     }
 
 #lab a
     {
-        background: url(pics/sprite.png) 0 -144px;
+        background: url(pics/sprite.png) 5px -139px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 
 #lab a:hover 
     {
-        background: url(pics/sprite.png) 0 -96px;
+        background: url(pics/sprite.png) 5px -91px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
-        background-position: 5px 5px;
     }
 
 #contact a
     {
-        background: url(pics/sprite.png) 0 -336px;
+        background: url(pics/sprite.png) 5px -331px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
     
 #contact a:hover 
     {
-        background: url(pics/sprite.png) 0 -288px;
+        background: url(pics/sprite.png) 5px -283px;
         background-repeat: no-repeat;
         background-color:  #95efd7;
-        background-position: 5px 5px;
     }
 
 #navigation 
@@ -86,6 +78,7 @@ body
 #navigation ul
     {
         list-style: none;
+        -webkit-padding-start: 0;
     }
     
 #navigation li
@@ -113,33 +106,29 @@ body
     {
         color: #5f4f3a;
         background-color: #95efd7;
-        background: url(pics/sprite.png) 0 0px;
+        background: url(pics/sprite.png) 5px 0px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 #navigation ul li .activepres  
     {
         color: #5f4f3a;
         background-color: #95efd7;
-        background: url(pics/sprite.png) 0 -192px;
+        background: url(pics/sprite.png) 5px -187px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 #navigation ul li .activelab  
     {
         color: #5f4f3a;
         background-color: #95efd7;
-        background: url(pics/sprite.png) 0 -96px;
+        background: url(pics/sprite.png) 5px -91px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 #navigation ul li .activecontact
     {
         color: #5f4f3a;
         background-color: #95efd7;
-        background: url(pics/sprite.png) 0 -288px;
+        background: url(pics/sprite.png) 5px -283px;
         background-repeat: no-repeat;
-        background-position: 5px 5px;
     }
 
 

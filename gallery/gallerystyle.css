@@ -4,15 +4,30 @@ body
     font: 13px georgia, serif;
 }
 
+header
+{
+    width:1200px;
+    height: 80px;
+}
+
+main
+{
+    background: #efebe4;
+    width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
 section
 {
     float:left;
-    width: 800px;
+    width: 750px;
 }
 
 aside
 {
-    float:left;
+    float: left;
+    width: 300px;
 }
 
 a
@@ -40,18 +55,33 @@ a
     -webkit-transition:all 0.2s ease-in-out;
     float: left;
     margin: 10px;
+    
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+
+#gallery:nth-child(2n) a
+{
+    -webkit-transform: none;
+    -moz-transform: none;
+    position: relative;
+    top: -5px;
 }
 
 a:hover
 {
     -moz-box-shadow: #666 5px 5px 20px; 
     -webkit-box-shadow: #666 5px 5px 20px; 
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
 }
 
 a:after {
   content: attr(title);
   font: 12px helvetica, sans-serif;
-  padding-top: 10px;
+  tex
 }
 
 img

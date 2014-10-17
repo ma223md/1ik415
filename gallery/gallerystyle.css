@@ -1,4 +1,31 @@
+body 
+{
+    background-color: #efebe4;
+    font: 13px georgia, serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h2 
+{
+    font: bold 20px helvetica, sans-serif;
+}
+
+a
+{
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-transition:all 0.2s ease-in-out; 
+}
+
 img
 {
-    max-width: 400px;
+    width: 200px;
+    display: block; 
+    background: #ffffff; 
+    padding: 10px; 
+    padding-bottom: 20px; 
+    margin-top: 10px;
 }

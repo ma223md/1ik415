@@ -4,9 +4,21 @@ body
     font: 13px georgia, serif;
 }
 
+section
+{
+    float:left;
+    width: 800px;
+}
+
+aside
+{
+    float:left;
+}
+
 a
 {
     text-decoration: none;
+    color: #000;
 }
 
 h2 
@@ -26,6 +38,8 @@ a
     -webkit-box-shadow: #ccc 5px 5px 20px; 
     -moz-transition: all 0.2s ease-in-out; 
     -webkit-transition:all 0.2s ease-in-out;
+    float: left;
+    margin: 10px;
 }
 
 a:hover
@@ -36,9 +50,12 @@ a:hover
 
 a:after {
   content: attr(title);
+  font: 12px helvetica, sans-serif;
+  padding-top: 10px;
 }
 
 img
 {
     width: 200px;
+    max-height: 400px;
 }

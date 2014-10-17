@@ -16,16 +16,29 @@ h2
 
 a
 {
+    display: block; 
+    width: 200px;
+    background: #ffffff; 
+    padding: 10px; 
+    padding-bottom: 20px; 
+    margin-top: 10px;
+    -moz-box-shadow: #ccc 5px 5px 20px; 
+    -webkit-box-shadow: #ccc 5px 5px 20px; 
     -moz-transition: all 0.2s ease-in-out; 
-    -webkit-transition:all 0.2s ease-in-out; 
+    -webkit-transition:all 0.2s ease-in-out;
+}
+
+a:hover
+{
+    -moz-box-shadow: #666 5px 5px 20px; 
+    -webkit-box-shadow: #666 5px 5px 20px; 
+}
+
+a:after {
+  content: attr(title);
 }
 
 img
 {
     width: 200px;
-    display: block; 
-    background: #ffffff; 
-    padding: 10px; 
-    padding-bottom: 20px; 
-    margin-top: 10px;
 }

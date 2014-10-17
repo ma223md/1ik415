@@ -73,10 +73,20 @@ a:hover
     -webkit-transition:all 0.2s ease-in-out;
 }
 
-a:after {
+a:after 
+{
   content: attr(title);
   font: 12px helvetica, sans-serif;
-  tex
+}
+
+
+
+section:nth-child(2n+0) a 
+{
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    position: relative;
+    right: 5px;
 }
 
 img

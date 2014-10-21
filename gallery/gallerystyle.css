@@ -79,8 +79,6 @@ a:after
   font: 12px helvetica, sans-serif;
 }
 
-
-
 section:nth-child(2n+0) a 
 {
     -webkit-transform: rotate(5deg);

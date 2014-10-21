@@ -1,7 +1,6 @@
 body 
 {
     background-color: #efebe4;
-    font: 13px georgia, serif;
 }
 
 header
@@ -32,11 +31,6 @@ aside
     width: 300px;
 }
 
-a
-{
-    text-decoration: none;
-    color: #000;
-}
 
 h2 
 {
@@ -45,6 +39,8 @@ h2
 
 a
 {
+    text-decoration: none;
+    color: #000;
     display: block; 
     width: 200px;
     background: #ffffff; 
@@ -70,19 +66,28 @@ a:hover
     position: relative;
     z-index: 5;
     -moz-transition: all 0.2s ease-in-out; 
-    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 a:after 
 {
   content: attr(title);
-  font: 12px helvetica, sans-serif;
+  font-size: 12px;
+  font-family: 'Indie Flower', cursive;
 }
 
-section:nth-child(2n+0) a 
+section a:nth-child(2n) 
 {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
+    position: relative;
+    right: 5px;
+}
+
+section a:nth-child(3n) 
+{
+    top: 3px;
+    left: -5px;
     position: relative;
     right: 5px;
 }

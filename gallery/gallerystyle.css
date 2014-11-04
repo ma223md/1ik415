@@ -86,10 +86,9 @@ section :nth-child(2n)
 
 section :nth-child(3n) 
 {
-    top: 3px;
-    left: -5px;
+    top: 5px;
+    left: -15px;
     position: relative;
-    right: 5px;
 }
 
 img

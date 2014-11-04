@@ -76,7 +76,7 @@ a:after
   font-family: 'Indie Flower', cursive;
 }
 
-section a:nth-child(2n) 
+section :nth-child(2n) 
 {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
@@ -84,7 +84,7 @@ section a:nth-child(2n)
     right: 5px;
 }
 
-section a:nth-child(3n) 
+section :nth-child(3n) 
 {
     top: 3px;
     left: -5px;

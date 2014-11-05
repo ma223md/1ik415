@@ -62,6 +62,17 @@ a
     -moz-transform: rotate(-2deg);
 }
 
+a:focus {
+    -moz-box-shadow: #ccc 5px 5px 20px; 
+    -webkit-box-shadow: #ccc 5px 5px 20px; 
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
 a:hover
 {
     -moz-box-shadow: #ccc 5px 5px 20px; 
